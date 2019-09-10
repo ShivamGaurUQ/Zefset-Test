@@ -35,3 +35,4 @@
 - Application stops when timer runs out or submitted earlier by the candidate.
 - A prompt alerts the applicant before submitting the test and asks for the confirmation.
 ![](images/img6.png)
+- result.txt is created after test submission. It records the candidate's answers and the correct answers to each question. Finally calculates final marks (also includes negative marking for each wrong answer) before it is written and saved in the same directory.
