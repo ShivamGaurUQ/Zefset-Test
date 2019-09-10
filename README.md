@@ -25,7 +25,9 @@
 - Application starts running. 
 ![](images/zef.png)
 - Enter applicant's name and id(roll number).
-- Enter password(000111).
+- Enter password(000111)to unlock the application.
 - Read instructions.
 ![](images/img2.png)
+- A prompt is generated to alert the user if more than one answer is selected as each question only has one correct answer.
+![](images/img3.png)
 - Application stops when timer runs out or submitted earlier by the candidate.
