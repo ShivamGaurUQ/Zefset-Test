@@ -1,0 +1,11 @@
+Steps to execute the application:
+
+1. In the C: drive create a new directory called "onlinetest".
+2. Install latest verion of java (jdk 8).
+3. Copy all the files and folders in the directory "onlinetest".
+4. Open Command Prompt.
+5. Type:  cd C:
+6. Type:  cd onlinetest
+7. Type:  javac Zefset.java
+8: Type   java  Zefset
+9: Application Window opens. Follow the instruction as follows.The Password is 000111
