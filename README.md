@@ -27,4 +27,5 @@
 - Enter applicant's name and id(roll number).
 - Enter password(000111).
 - Read instructions.
+![](images/img1.png)
 - Application stops when timer runs out or submitted earlier by the candidate.
