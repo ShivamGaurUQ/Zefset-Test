@@ -30,4 +30,6 @@
 ![](images/img2.png)
 - A prompt is generated to alert the user if more than one answer is selected as each question only has one correct answer.
 ![](images/img3.png)
+- Timer on top-right indicates the time lapsed during the test.
+![](images/img4.png)
 - Application stops when timer runs out or submitted earlier by the candidate.
