@@ -40,11 +40,11 @@ labeln.setBounds(20,30,60,20);
 labelr.setBounds(20,70,60,20);
 
 labeln.setOpaque(true);
-     // labeln.setBackground(Color.GRAY);
-      labeln.setForeground(Color.BLACK);
+   
+labeln.setForeground(Color.BLACK);
 labelr.setOpaque(true);
-     // labelr.setBackground(Color.GRAY);
-      labelr.setForeground(Color.BLACK);
+   
+labelr.setForeground(Color.BLACK);
 
 
 panel.add(blogin);
@@ -80,15 +80,13 @@ if(ppaswd.equalsIgnoreCase(roll[i])==true){flagroll=i;break;}
 }
 
 if(flagname==flagroll) {
-//newframe regFace =new newframe();
-//regFace.setVisible(true);
+
 
 Log l =new Log();
 l.setVisible(true);
 
 
-//OnlineTest o =new OnlineTest();
-//o.start();
+
 
 
 
@@ -124,9 +122,7 @@ Log frameTabel = new Log();
 JButton blogin = new JButton("Start Test");
 JPanel panel = new JPanel();
  JLabel labeln = new JLabel("Password :");
-//JLabel labelr = new JLabel("Roll No. :");
- 
-//JTextField txuser = new JTextField(15);
+
 JPasswordField pass = new JPasswordField(15);
 
 Log(){
@@ -139,25 +135,23 @@ setSize(350,250);
 setLocation(500,280);
 panel.setLayout (null); 
 
-//txuser.setBounds(90,30,150,20);
+
 pass.setBounds(90,70,200,20);
 blogin.setBounds(110,100,150,20);
 labeln.setBounds(20,30,90,20);
-//labelr.setBounds(20,70,60,20);
+
 
 labeln.setOpaque(true);
-     // labeln.setBackground(Color.GRAY);
-      labeln.setForeground(Color.BLACK);
-//labelr.setOpaque(true);
-     // labelr.setBackground(Color.GRAY);
-  //    labelr.setForeground(Color.BLACK);
+     
+labeln.setForeground(Color.BLACK);
+
 
 
 panel.add(blogin);
-//panel.add(txuser);
+
 panel.add(pass);
 panel.add(labeln);
-//panel.add(labelr);
+
 getContentPane().add(panel);
 setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 setVisible(true);
@@ -174,89 +168,6 @@ public void actionPerformed(ActionEvent ae) {
 });
 }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*class newframe extends JFrame {
-
-void cons() {
-newframe frameTabel = new newframe();
-}
-
-//JLabel welcome = new JLabel("Welcome to ZefSet");
-//JPanel panel = new JPanel();
-
-newframe(){
-super("Welcome");
-setSize(300,200);
-setLocation(500,280);
-panel.setLayout (null); 
-
-welcome.setBounds(70,50,150,60);
-
-panel.add(welcome);
-
-getContentPane().add(panel);
-setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-setVisible(true);
-
-//addition
-OnlineTest o =new OnlineTest();
-
-dispose();
-o.start();
-}
-
-}
-
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -306,16 +217,13 @@ static int passMark = 33;
 
  class OnlineTest extends JFrame{
 
-   // static String studentname ="";
+   
     static int TOTAL=0;
 
 	static {
 	try{
 	TOTAL = QuestionSeries.tally;		
-	/* 	The input window */
-	//studentname = JOptionPane.showInputDialog("Password: ");
-	//if(studentname.equals("12345")) flag=1;
-	//else studentname = studentname.trim() + " ";
+	
 	}catch(NullPointerException e){ System.exit(0); }
 	}	
 
@@ -631,21 +539,8 @@ class Timer extends Thread implements Runnable{
 
 class Resultwindow extends JFrame{
 		Resultwindow() {
-/*      	super( studentname+" results: " +(mark*100/TOTAL >=PASS?"PASS":"FAIL") );
-  		Container cont = getContentPane();
-		cont.setLayout(new GridLayout(TOTAL/2+3,5,2,5) );
-		cont.setBackground(new Color(255,220,255) );
-		cont.add(new JLabel("  "+"Marks:    "+mark+"/"+TOTAL+": "+"Percentage:  "+(mark*100/TOTAL)+"%") );
-           for(int i=0; i<3; i++)cont.add(new JLabel() );
-      	  String temp[] = new String[TOTAL];
-			for(int i=0; i<TOTAL; i++){
-				if(QuestionSeries.choice[i].equals(answers[i])) temp[i]="correct";
-				else temp[i]="wrong";
-			}
-			for(int i=0; i<TOTAL; i++) cont.add(new JLabel("  Question "+(i+1)+":  "+temp		[i]) );
-		pack();
-		setLocation(200,200);
-*/	}
+
+	}
 }
 
 /* ItemHandler class */
