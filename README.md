@@ -22,7 +22,9 @@
 - Install JDK 8 or higher.
 - Open terminal. Change directory to the one saving the files.
 - Run Zefset.java (1. javac Zefset.java  2. java Zefset)
-- Application starts running. Enter applicant's name and id(roll number).
+- Application starts running. 
+![](images/zef.png)
+- Enter applicant's name and id(roll number).
 - Enter password(000111).
 - Read instructions.
 - Application stops when timer runs out or submitted earlier by the candidate.
