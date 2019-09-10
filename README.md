@@ -20,7 +20,7 @@
 
 - Clone the repository.
 - Install JDK 8 or higher.
-- Open terminal. Change directory to the one saving the files.
+- Open terminal. Change directory to the one saving the files. Use: cd __DIRECTORY NAME__
 - Run Zefset.java (1. javac Zefset.java  2. java Zefset)
 - Application starts running. 
 ![](images/zef.png)
