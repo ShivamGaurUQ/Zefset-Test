@@ -34,4 +34,4 @@
 ![](images/img4.png)
 - Application stops when timer runs out or submitted earlier by the candidate.
 - A prompt alerts the applicant before submitting the test and asks for the confirmation.
-![](images/img5.png)
+![](images/img6.png)
